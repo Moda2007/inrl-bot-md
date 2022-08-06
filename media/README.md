@@ -10,5 +10,7 @@ upload image from your file
 ```
 
 first you delete our image and replace your image here 
-
-- Note thet the name ot file is equal { OldFileName = NewFileName }
+``` javascript
+- Note thet the name old file is equal to new file{ OldFileName = NewFileName }
+else the image not useble, also the bot not work
+```
