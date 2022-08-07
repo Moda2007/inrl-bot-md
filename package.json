@@ -6,9 +6,17 @@
 	"scripts": {
 		"start": "supervisor -s index.js"
 	},
+        "repository": {
+        "type": "git",
+        "url": "git+https://github.com/inrl-official/inrl-bot-md.git"
+        },
 	"author": "",
-	"license": "ISC",
-	"dependencies": {
+	"license": "GPL-3.0-or-later",
+        "bugs": {
+        "url": "https://github.com/inrl-official/inrl-bot-md/issues"
+	},
+        "homepage": "https://github.com/inrl-official/inrl-bot-md#readme",
+        "dependencies": {
 		"@adiwajshing/baileys": "4.3.0",
                 "@adiwajshing/keyed-db": "^0.2.4",
 		"dotenv": "^16.0.0",
