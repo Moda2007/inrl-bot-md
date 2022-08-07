@@ -1,10 +1,11 @@
 {
 	"name": "inrl-bot-md",
-	"version": "3.3.2",
+	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "supervisor -s index.js"
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "pm2 start . --attach"
 	},
 	"author": "",
 	"license": "ISC",
@@ -20,6 +21,8 @@
 		"got": "11.8.3",
 		"heroku-client": "^3.1.0",
 		"jimp": "^0.16.1",
+                "pg": "^8.7.3",
+		"pm2": "^5.2.0",
 		"link-preview-js": "^2.1.13",
 		"moment": "^2.29.1",
 		"node-cron": "^3.0.1",
