@@ -8,7 +8,7 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './bot.db' : process.env
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 module.exports = {
     VERSION: 'V 1.0.0',
-    PREFIX: process.env.PREFIX || '.',
+    HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
     SESSION_ID: process.env.SESSION_ID || '',
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
