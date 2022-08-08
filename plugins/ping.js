@@ -1,6 +1,6 @@
-const { bot } = require('../lib/inrl')
+const ddb = require('../lib/inrl')
 
-bot(
+ddb.bot(
 	{
 		pattern: 'ping ?(.*)',
 		fromMe: true,
