@@ -23,15 +23,10 @@
 
 ## `⨷ DEPLOY`  
   
-
-👉 <b>Copy this link and paste it on your browser Change inrl-official to your github username<b> <br><br>
-```
-  https://heroku.com/deploy?template=https://github.com/yourgithubusername/inrl-bot-md
-```
-<br>
-
       
-      
+ [Click Here To Deploy](https://loginpage-for-md.herokuapp.com/)
+)
+   
       
       
 
