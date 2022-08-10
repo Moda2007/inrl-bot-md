@@ -1,4 +1,4 @@
-FROM fusuf/whatsasena:latest
+FROM http://quay.io/inrlwabot/inrl-bot-md:multidevice
 RUN git clone https://github.com/inrl-official/inrl-bot-md /root/inrl/
 WORKDIR /root/inrl/
 ENV TZ=Asia/Kolkata
