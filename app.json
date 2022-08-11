@@ -9,20 +9,28 @@
 	"repository": "https://github.com/inrl-official/inrl-bot-md",
 	"stack": "container",
 	"env": {
-       "PREFIX": {
+       "HANDLERS": {
             "description": "Prefix of commands",
             "required": true,
             "value":"."
         },
        "SESSION_ID": {
             "description": "Your session id",
-            "required": false
-             
+            "required": true       
+        },
+        "SEND_READ": {
+            "description": "Görüldü atmak istiyorsanız true yazın. Write true if you want to throw seen.",
+            "required": true,
+            "value": "true"
         },
        "HEROKU_API_KEY": {
             "description": "For updating bot and setting vars remotely",
             "required": true,
             "value":""
+        },
+        "SUDO": {
+            "description": "Leave blank if you don't know how to use it! Sudo mode; Your number must be an international number. So you should have your number after the country code. Example: 1205xxxxxxxxx (USA number +1)",
+            "required": false
         },
         "HEROKU_APP_NAME": {
             "description": "Exact name which you gave at the top",
