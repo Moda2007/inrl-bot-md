@@ -10,6 +10,7 @@ module.exports = {
     VERSION: 'V 1.0.0',
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
     SESSION_ID: process.env.SESSION_ID || '',
+    SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
         API_KEY: process.env.HEROKU_API_KEY || '',
