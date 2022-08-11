@@ -24,7 +24,7 @@
 ## `⨷ DEPLOY`  
   
       
- [Click Here To Deploy](https://loginpage-for-md.herokuapp.com/)
+ [Click Here To Deploy](https://heroku.com/deploy?template=https://github.com/inrl-official/inrl-bot-md)
 
    
       
