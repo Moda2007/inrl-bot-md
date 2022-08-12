@@ -24,7 +24,7 @@
 ## `⨷ DEPLOY` 
 
   <div align="center">
-  <img border-radius: 15px src="https://imgur.com/jrswOSr.jpg" width="250" height="35"/>
+  <img border-radius: 15px src="https://imgur.com/jrswOSr.jpg" width="300" height="35"/>
 </div>
       
  [Click Here To Deploy](https://heroku.com/deploy?template=https://github.com/inrl-official/inrl-bot-md)
