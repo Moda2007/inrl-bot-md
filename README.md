@@ -16,12 +16,15 @@
 
 ## `⨷ SCAN QR`
 
+- To use This bot you need to scan this <br>
 
 [Click Here To Scan QR](https://multi-divice.herokuapp.com/)
 
 
 
 ## `⨷ DEPLOY` 
+
+- To use This bot you need to deploy this <br>
 
   <div align="center">
   <img border-radius: 15px src="https://imgur.com/jrswOSr.jpg" width="300" height="35"/>
