@@ -10,6 +10,7 @@ module.exports = {
     VERSION: 'V 1.0.0',
     HANDLERS: (process.env.PREFIX || '^[.,!]').trim(),
     SESSION_ID: process.env.SESSION_ID || '',
+    OWNER: process.env.OWNER === undefined ? '917025099154' : process.env.OWNER,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     HEROKU: {
         HEROKU: process.env.HEROKU === undefined ? false : convertToBool(process.env.HEROKU),
