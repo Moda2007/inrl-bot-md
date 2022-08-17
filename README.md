@@ -1,4 +1,4 @@
-
+# not work this bot at now 
 # *inrl Multi-Device whatsapp bot*
 <div align="center">
   
